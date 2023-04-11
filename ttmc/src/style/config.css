@@ -1,0 +1,9 @@
+/* Config de base, modifiable à souhait, on peut y mettre notre police, et couleurs de bases (si on le fait en sass on peut faire des variables de style plutôt efficace dans le config.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
