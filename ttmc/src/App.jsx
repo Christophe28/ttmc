@@ -8,6 +8,7 @@ import { dataFetch } from "./functions/getData";
 import Instructions from "./components/instructions/Instructions";
 import ConfigGame from "./components/configGame/ConfigGame";
 import GameBoard from "./components/gameBoard/GameBoard";
+import Button from "./components/myComponent/Button";
 
 function App() {
   // Récupère les questions du server avec la fonction getData() (../functions/getData.js);
@@ -40,11 +41,6 @@ function App() {
       <h1>Tu te met combien, alias ttmc jet 1.3 !</h1>
 
       {componentsGame[currentComponent]}
-
-      {/* Les boutons sont là pour montrer le fonctionnement, à effacer */}
-      <button onClick={() => setCurrentComponent(0)}>Instructions</button>
-      <button onClick={() => setCurrentComponent(1)}>Config Game</button>
-      <button onClick={() => setCurrentComponent(2)}>GameBoard</button>
     </div>
   )
 }
