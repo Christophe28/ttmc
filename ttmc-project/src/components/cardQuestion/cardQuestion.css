@@ -1,0 +1,21 @@
+.container-cardQuestion {
+  width: 100%;
+  height: 90%;
+  border: 1px solid blue;
+  margin: auto;
+  text-align: center;
+  color: #00a1d5;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+}
+
+#betQuestion {
+  border: 4px solid grey;
+  cursor: pointer;
+  user-select: none;
+}
+
+.betValue:hover {
+  background-color: red;
+}

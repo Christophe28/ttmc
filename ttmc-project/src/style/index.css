@@ -1,0 +1,23 @@
+/* config */
+@import url("./config.css");
+
+/* Instruction */
+@import url("../components/instruction/instructions.css");
+
+/* Config game  */
+@import url("../components/configGame/configGame.css");
+
+/* Canvas */
+@import url("../components/canvas/canvas.css");
+
+/* CardQuestion */
+@import url("../components/cardQuestion/cardQuestion.css");
+
+/* wrapper  */
+@import url("../components/wrapper/wrapper.css");
+
+/* generic bouton  */
+@import url("../components/button/button.css");
+
+/* Final page */
+@import url("../components/finalPage/finalPage.css");

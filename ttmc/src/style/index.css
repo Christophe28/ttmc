@@ -1,7 +1,0 @@
-/* L'index sert de route. Il n'y a pas de style dans ce fichier, uniquement les imports. Toujours laisser config.css en premier */
-
-/* Config */
-@import url("./config.css");
-
-/* ConfigGame  */
-/* @import url("../components/configGame/configGame.css"); */
