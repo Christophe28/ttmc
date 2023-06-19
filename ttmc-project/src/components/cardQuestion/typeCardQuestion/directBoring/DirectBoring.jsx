@@ -12,6 +12,7 @@ const DirectBoring = ({ question, answer, setQuestionAnswer, correct, incorrect 
 
   return (
     <div>
+      {/* <h1>Direct boring</h1> */}
       <p>{question}</p>
       <section>
         <input 
@@ -37,7 +38,7 @@ const DirectBoring = ({ question, answer, setQuestionAnswer, correct, incorrect 
           }}
         />
         <Button
-          value="Valider la réponse"
+          value="Valider"
           className="button"
           onClick={() => {
             catchAnswer(setQuestionAnswer, question, answer);

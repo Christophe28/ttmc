@@ -39,7 +39,7 @@ const CardDirect = ({ question, answer, setQuestionAnswer, correct, incorrect })
           }} 
         />
         <Button 
-          value="Valider la réponse" 
+          value="Valider" 
           className="button"
           onClick={(e) => {
             if(isLvDistance(checkWord, 5)) {

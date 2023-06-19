@@ -21,3 +21,8 @@
 
 /* Final page */
 @import url("../components/finalPage/finalPage.css");
+
+/* player list */
+@import url("../components/playerList/playerList.css");
+
+@import url("../components/cardResponse/cardResponse.css");

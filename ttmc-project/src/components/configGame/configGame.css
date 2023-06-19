@@ -1,39 +1,93 @@
 .container-configGame {
-  border: 1px solid black;
+  border: double 8px rgb(215, 193, 163);
+  outline: solid 3px rgb(215, 193, 163);
+  font-size: 20px;
   display: flex;
+  padding: 30px;
   flex-direction: column;
   align-items: center;
+}
+.container-configGame input {
+  margin-right: 50px;
+  padding: 5px 20px 5px 20px;
+  border: 3px solid #1c3232;
+  outline: solid 3px chartreuse;
+  margin-bottom: 50px;
+}
+
+.container-configGame p {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  color: chartreuse;
 }
 
 .container-playerName {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .container-playerName p {
-  width: 50%;
+  width: 40%;
   height: 20px;
-  border: 1px solid red;
-  background-color: grey;
-  color: white;
+  border: 2px double #1c3232;
+  outline: 2px solid chartreuse;
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  color: #1c3232;
   position: relative;
+  margin-right: 20px;
 }
 
 .container-playerName p span {
   position: absolute;
-  right: 0;
+  right: 5px;
   cursor: pointer;
-  color: yellow;
+  color: #1c3232;
 }
 
 .availableAvatar {
-  width: 50%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  background-color: white;
-  height: 20px;
-  margin: 16px;
   user-select: none;
   cursor: pointer;
+  height: 40px;
+}
+.disabled {
+  opacity: 0.4;
+}
+
+.defaultArrow {
+  transform: rotateX(0deg);
+  transition: 0.5s;
+}
+
+.rotatedArrow {
+  transform: rotateX(180deg);
+  transition: 0.3s;
+}
+
+.availableAvatar button {
+  height: 30px;
+  width: 30px;
+  background-color: chartreuse;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dropDownElements {
+  background-color: white;
+  height: 165px;
+  width: 10px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  border: 2px double #1c3232;
+  outline: 2px solid chartreuse;
+  /* left: 1112px; */
+  left: 60%;
+  margin: -2px;
+  z-index: 999;
 }

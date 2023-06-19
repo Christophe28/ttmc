@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Kanit:wght@200&family=Press+Start+2P&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -16,3 +18,68 @@ button:hover {
 img {
   position: absolute;
 }
+
+h1 {
+  font-family: "Inconsolata", monospace;
+}
+
+h2 {
+  font-family: "Press Start 2P", cursive;
+}
+
+h3 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 23px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+h5 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 30px;
+  margin: 30px;
+  color: chartreuse;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  text-decoration: underline;
+}
+
+p {
+  /* font-family: "Kanit", sans-serif; */
+  font-family: "Inconsolata", monospace;
+}
+
+button {
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+input {
+  font-family: "Press Start 2P", cursive;
+  color: #1c3232;
+  font-size: 15px;
+}
+
+li {
+  font-family: "Press Start 2P", cursive;
+}
+
+.logoTtmc {
+  height: 170px;
+  width: 170px;
+  background-image: url("../../../ttmc_online_logo.png");
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.logoTtmc:hover {
+  transform: scale(0.9);
+  transition: 0.3s ease-in-out;
+}
+
+/* .temporis {
+  position: absolute;
+  bottom: 0px;
+} */
