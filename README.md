@@ -18,21 +18,23 @@ TTMC is a board game similar to Trivial Pursuit with a few differences. We used 
 
 ## Project Structure
 
+```
 projet
 ├── server
 ├── front
-│ ├── public
-│ └── src
-│ ├── components
-│ │ └── cards
-│ ├── config
-│ ├── functions
-│ ├── style
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── public
+│   └── src
+│       ├── components
+│       │   └── cards
+│       ├── config
+│       ├── functions
+│       ├── style
+│       ├── App.jsx
+│       └── main.jsx
 ├── .gitignore
 ├── index.html
 └── package.json
+```
 
 ## Features
 
