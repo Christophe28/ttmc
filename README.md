@@ -1,56 +1,60 @@
-# Nom du Projet
+# TTMC
 
-Nom du projet est un projet réalisé dans le cadre de la fin de formation à Technocité.
+TTMC est un projet de groupe réalisé dans le cadre de la fin de formation à Technocité.
 
 ## Description
 
-Description brève du projet, mettant en évidence son objectif et ses fonctionnalités principales. Vous pouvez également mentionner les technologies utilisées et les problèmes auxquels le projet vise à répondre.
+TTMC est un jeu de plateau ressemblant au trivial poursuite à quelques détails près.
+Nous avons utilisé comme technologies React pour la globalité du projet ainsi que Canvas pour le plateau.
+Comme le projet était surtout à viser certaines compétances lors d'un délai nous n'avons pas eu le temps de corriger quelque détails tel que le responsive ainsi que quelques corrections pour quelques fonctionnalitées. Cependant nous avons atteins les objectifs fixé et le programme est plutôt fonctionnel.
+Pour la fin de ce projet nous avions pour condition d'utiliser une API, cependant nous n'avions pas d'API pour le jeu en question. Nous avons donc décidé de créer notre database et de faire une requête vers un serveur local pour récupérer la database.
+
 
 ## Installation
 
 1. Clonez ce dépôt sur votre machine locale.
 2. Assurez-vous d'avoir [Node.js](https://nodejs.org) installé.
-3. Ouvrez une fenêtre de terminal et accédez au répertoire du projet.
-4. Exécutez la commande `npm install` pour installer les dépendances.
-5. Exécutez la commande `npm start` pour démarrer l'application.
+3. Assurez-vous d'avoir [nodemon](https://www.npmjs.com/package/nodemon) instalé.
+3. Ouvrez deux fenêtre de terminal et accédez au répertoire du projet.
+4. Dans le premier terminal naviguez dans le dossier [server] et exécutez la commande `nodemon server.js`
+5. Dans le deuxième terminal naviguez dans le dossier [ttmc] et exécutez la commande `npm i`pour installer les dépendances.
+6. Dans le deuxième terminal, dans le dossier [ttmc], exécutez la commande `npm run dev`pour démarrer l'application.
 
 ## Structure du Projet
 
-Expliquez brièvement la structure du projet, en mettant en évidence les fichiers et les dossiers les plus importants. Vous pouvez inclure un arbre de répertoires pour aider à visualiser la structure.
-
 projet
-├── src
-│ ├── components
-│ ├── pages
-│ ├── App.js
-│ └── index.js
-├── public
-├── package.json
-└── README.md
+├── server
+├── front
+│   ├── public
+│   └── src
+│       ├── components
+│       │   └── cards
+│       ├── config
+│       ├── functions
+│       ├── style
+│       ├── App.jsx
+│       └── main.jsx
+├── .gitignore
+├── index.html
+└── package.json
 
 ## Fonctionnalités
 
-- **Fonctionnalité 1 :** Description de la fonctionnalité 1.
-- **Fonctionnalité 2 :** Description de la fonctionnalité 2.
-- **Fonctionnalité 3 :** Description de la fonctionnalité 3.
+- **Fonctionnalité 1 :** Dans un premier temps les joueurs devront s'enregistrer et choisir un pion les représentants.
+- **Fonctionnalité 2 :** Les joueurs auront le choix de miser le nombre de réponses auquels ils peuvent répondre.
+- **Fonctionnalité 3 :** Les joueurs devront répondre au biais d'input texte ou d'input radio la bonne réponse.
+- **Fonctionnalité 4 :** Lorsque le joueur répond correctement à toutes les questions, le pion avance en conséquence.
 
 ## Captures d'écran
 
-Incluez des captures d'écran ou des GIF animés pour montrer l'apparence et le fonctionnement de votre application.
-
-## Contribuer
-
-Expliquez comment les autres développeurs peuvent contribuer à votre projet. Vous pouvez fournir des instructions sur la façon de soumettre des pull requests et des problèmes.
+![Ecran d'accueil](./mdPicture/step_1.png)
+![Enregistrement](./mdPicture/step_2.png)
+![Paris](./mdPicture/step_4.png)
+![question](./mdPicture/step_5.png)
 
 ## Auteurs
 
-- Prénom Nom (@nomutilisateur) - Rôle dans l'équipe
-- Prénom Nom (@nomutilisateur) - Rôle dans l'équipe
-
-## Remerciements
-
-Remerciez les personnes, les ressources ou les organisations qui ont aidé votre équipe dans la réalisation du projet.
-
-## License
-
-Indiquez la licence sous laquelle le projet est publié. Par exemple : "Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails."
+- Célestine - Responsable U.I / U.X. Designer
+- Christophe Buffe (www.linkedin.com/in/christophe-buffe) - lead dev
+- Sandrine - front-end
+- Veasna - front-end
