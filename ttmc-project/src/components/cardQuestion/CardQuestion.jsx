@@ -148,17 +148,17 @@ const CardQuestion = ({data, players, currentPlayer, setCurrentPlayer, setGoodAn
       {displayQuestions ? checkTypeCard[0].component : ""}
 
       {/* Tools */}
-      <button onClick={() => {
+      {/* <button onClick={() => {
         currentQuestion < bet - 1 ? setCurrentQuestion(currentQuestion + 1) : ""; 
         setGoodAnswer(goodAnswer + 1);
       }}>
         change de page
-      </button>
-      <button onClick={() => {
+      </button> */}
+      {/* <button onClick={() => {
         console.log(data.questions);
       }}>
         consoleLog
-      </button>
+      </button> */}
           </>
         )
       }

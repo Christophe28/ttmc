@@ -55,7 +55,7 @@ const Canvas = ({ players, setPlayers, data, setCurrentComponent }) => {
     players[currentPlayer];
 
 
-  const temporis = [1, 2, 3, 4 ,5 ,6 , 7, 8, 9, 10];
+  // const temporis = [1, 2, 3, 4 ,5 ,6 , 7, 8, 9, 10];
 
   // Set en temps réel getContext et canvasRef.current sinon sa bug
   useEffect(() => {
@@ -314,7 +314,7 @@ const Canvas = ({ players, setPlayers, data, setCurrentComponent }) => {
           "On attend que ça charge"
         )}
       </Wrapper>
-      {
+      {/* {
         temporis.map(elem => (
 
           <div className="temporis" style={{
@@ -333,7 +333,7 @@ const Canvas = ({ players, setPlayers, data, setCurrentComponent }) => {
             </button>
           </div>
         ))
-      }
+      } */}
     </>
   );
 };
